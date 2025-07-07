@@ -1,0 +1,688 @@
+{
+    "Sequences": {
+        "CV104_SEQUENCE": {
+            "Passages": {
+                "par_sequences": [
+                    {
+                        "0 to 5": {
+                            "start": 0,
+                            "end": 5,
+                            "conditions": {
+                                "0": {
+                                    "SECT100_AUTO": 1,
+                                    "SECT100_START": 1,
+                                    "CV104_FAULT": 0,
+                                    "LI401_UD_R.POS_1_OK": 1
+                                },
+                                "1": {
+                                    "SECT100_AUTO": 1,
+                                    "SECT100_START": 1,
+                                    "CV104_FAULT": 0,
+                                    "LI401_SAFE_CV104": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "0 to 10": {
+                            "start": 0,
+                            "end": 10,
+                            "conditions": {
+                                "0": {
+                                    "CV104_2_CART_RDY": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "20 to 400": {
+                            "start": 20,
+                            "end": 400,
+                            "conditions": {
+                                "0": {
+                                    "LI401_RTS_CV104": 1,
+                                    " MODE_EXCHANGE_PROD_STOCK1": 0
+                                },
+                                "1": {
+                                    "LI401_RTS_CV104": 1,
+                                    " NEXT_RECIPE_ON_CV112": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "70 to 80": {
+                            "start": 70,
+                            "end": 80,
+                            "conditions": {
+                                "0": {
+                                    "CV104_SLIDING_TIME.DN": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "80 to 90": {
+                            "start": 80,
+                            "end": 90,
+                            "conditions": {
+                                "0": {
+                                    "CV104_CENTERING_TIME.DN": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "210 to 220": {
+                            "start": 210,
+                            "end": 220,
+                            "conditions": {
+                                "0": {
+                                    "CV104_TAK_TIME.DN": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "230 to 20": {
+                            "start": 230,
+                            "end": 20,
+                            "conditions": {
+                                "0": {
+                                    "LI401_LIFTING_CV104": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "300 to 310": {
+                            "start": 300,
+                            "end": 310,
+                            "conditions": {
+                                "0": {
+                                    "CV104_MAG_CV112_OK": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "310 to 20": {
+                            "start": 310,
+                            "end": 20,
+                            "conditions": {
+                                "0": {
+                                    "CV112_SYNC_CV104_RQ": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "510 to 570": {
+                            "start": 510,
+                            "end": 570,
+                            "conditions": {
+                                "0": {
+                                    "CV104_EMPTY.DN": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "540 to 550": {
+                            "start": 540,
+                            "end": 550,
+                            "conditions": {
+                                "0": {
+                                    "CV104_STOP_TIME.DN": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "560 to 70": {
+                            "start": 560,
+                            "end": 70,
+                            "conditions": {
+                                "0": {
+                                    "CV104_STEP1_DONE": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "570 to 20": {
+                            "start": 570,
+                            "end": 20,
+                            "conditions": {
+                                "0": {
+                                    "CV104_PARK_ON": 0,
+                                    "PARKING_OFF": 0,
+                                    "PARKING_MODE_CV": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "600 to 20": {
+                            "start": 600,
+                            "end": 20,
+                            "conditions": {
+                                "0": {
+                                    "LI401_MOVE_RQ_CV104": 0
+                                }
+                            }
+                        }
+                    }
+                ],
+                "par_capteurs": [
+                    {
+                        "5 to 10": {
+                            "start": 5,
+                            "end": 10,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "R20_DI06.6": 1,
+                                    "R20_DI03.1": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "15 to 70": {
+                            "start": 15,
+                            "end": 70,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI05.7": 1,
+                                    "R20_DI06.1": 1,
+                                    "R20_DI04.0": 1,
+                                    "R20_DI04.2": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "90 to 100": {
+                            "start": 90,
+                            "end": 100,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "220 to 230": {
+                            "start": 220,
+                            "end": 230,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "R20_DI06.6": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "510 to 520": {
+                            "start": 510,
+                            "end": 520,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI03.1": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "520 to 530": {
+                            "start": 520,
+                            "end": 530,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI03.1": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "550 to 560": {
+                            "start": 550,
+                            "end": 560,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI04.0": 1,
+                                    "R20_DI04.2": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sequence et capteur": [
+                    {
+                        "5 to 10": {
+                            "start": 5,
+                            "end": 10,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "ALWAYS_ON": 1,
+                                    "R20_DI03.1": 1,
+                                    "R20_DI04.0": 1,
+                                    "R20_DI04.2": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "10 to 15": {
+                            "start": 10,
+                            "end": 15,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI03.3": 1,
+                                    "CV104_2_BUSY": 0,
+                                    "R20_DI03.2": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "10 to 410": {
+                            "start": 10,
+                            "end": 410,
+                            "conditions": {
+                                "0": {
+                                    "LI401_SAFE_CV104": 1,
+                                    "R20_DI03.3": 0,
+                                    "CV104_2_BUSY": 0,
+                                    "R20_DI03.2": 1,
+                                    "R20_DI05.7": 1,
+                                    "R20_DI06.1": 1,
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "R20_DI06.6": 1
+                                },
+                                "1": {
+                                    "LI401_UD_R.POS_1_OK": 1,
+                                    "R20_DI03.3": 0,
+                                    "CV104_2_BUSY": 0,
+                                    "R20_DI03.2": 1,
+                                    "R20_DI05.7": 1,
+                                    "R20_DI06.1": 1,
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "ALWAYS_ON": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "10 to 700": {
+                            "start": 10,
+                            "end": 700,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI05.6": 1,
+                                    "R20_DI03.3": 1,
+                                    "CV104_2_BUSY": 1,
+                                    "R20_DI03.2": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "10 to 20": {
+                            "start": 10,
+                            "end": 20,
+                            "conditions": {
+                                "0": {
+                                    "CV104_SEARCH.DN": 1,
+                                    "R20_DI03.2": 0,
+                                    "R20_DI03.3": 0
+                                },
+                                "1": {
+                                    "CV104_PARK_ON": 1,
+                                    "R20_DI03.2": 0,
+                                    "CV104_2_BUSY": 1,
+                                    "R20_DI05.6": 1,
+                                    "R20_DI06.0": 1,
+                                    "R20_DI03.3": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "20 to 600": {
+                            "start": 20,
+                            "end": 600,
+                            "conditions": {
+                                "0": {
+                                    "LI401_MOVE_RQ_CV104": 1,
+                                    "CV104_PARK_ON": 0,
+                                    "R20_DI03.2": 0,
+                                    "R20_DI4.3": 1,
+                                    "R20_DI04.1": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "20 to 30": {
+                            "start": 20,
+                            "end": 30,
+                            "conditions": {
+                                "0": {
+                                    "CV103_RTS_CV104": 1,
+                                    "SECT100_PROD": 1,
+                                    "LI401_UD_R.POS_1_OK": 1,
+                                    "CV104_PARK_ON": 0,
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "R20_DI06.6": 1,
+                                    "R20_DI04.3": 1,
+                                    "R20_DI04.1": 1,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                },
+                                "1": {
+                                    "CV103_RTS_CV104": 1,
+                                    "SECT100_PROD": 1,
+                                    "LI401_SAFE_CV104": 1,
+                                    "CV104_PARK_ON": 0,
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "R20_DI06.6": 1,
+                                    "ALWAYS_ON": 1,
+                                    "R20_DI04.1": 1,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "20 to 300": {
+                            "start": 20,
+                            "end": 300,
+                            "conditions": {
+                                "0": {
+                                    "CV112_SYNC_CV104_RQ": 1,
+                                    "R20_DI04.3": 1,
+                                    "R20_DI04.1": 1,
+                                    "R20_DI05.6": 1,
+                                    "R20_DI06.0": 1,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "20 to 400": {
+                            "start": 20,
+                            "end": 400,
+                            "conditions": {
+                                "0": {
+                                    "LI401_RTS_CV104": 1,
+                                    "CV101_FREE": 1,
+                                    "CV102_FREE": 1,
+                                    "CV103_FREE": 1,
+                                    "PARKING_MODE_CV": 0,
+                                    "R20_DI04.3": 1,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "20 to 500": {
+                            "start": 20,
+                            "end": 500,
+                            "conditions": {
+                                "0": {
+                                    "SECT100_PROD": 1,
+                                    "PARKING_OFF": 1,
+                                    "R20_DI04.3": 1,
+                                    "R20_DI04.1": 1,
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "R20_DI06.6": 1,
+                                    "R20_DI05.7": 1,
+                                    "R20_DI06.1": 1,
+                                    "R20_DI03.3": 0,
+                                    "CV104_2_BUSY": 0,
+                                    "R20_DI03.2": 0,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                },
+                                "1": {
+                                    "SECT100_PROD": 1,
+                                    "PARKING_OFF": 1,
+                                    "R20_DI04.3": 1,
+                                    "R20_DI04.1": 1,
+                                    "R20_DI04.4": 1,
+                                    "R20_DI04.5": 1,
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "ALWAYS_ON": 1,
+                                    "R20_DI05.6": 1,
+                                    "R20_DI06.0": 1,
+                                    "R20_DI03.3": 1,
+                                    "CV104_2_BUSY": 1,
+                                    "R20_DI03.2": 0,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "40 to 50": {
+                            "start": 40,
+                            "end": 50,
+                            "conditions": {
+                                "0": {
+                                    "PH14 R20_DI03.1": 1,
+                                    "TRACK_CV104[1].DEST1": 1,
+                                    "TRACK_CV104[1].DEST2": 0,
+                                    "TRACK_CV104[1].DEST4": 0,
+                                    "TRACK_CV104[1].DEST8": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "40 to 200": {
+                            "start": 40,
+                            "end": 200,
+                            "conditions": {
+                                "0": {
+                                    "PH14 R20_DI03.1": 1,
+                                    "TRACK_CV104[1].DEST1": 0,
+                                    "TRACK_CV104[1].DEST2": 1,
+                                    "TRACK_CV104[1].DEST4": 1,
+                                    "TRACK_CV104[1].DEST8": 0
+                                },
+                                "1": {
+                                    "PH14 R20_DI03.1": 1,
+                                    "TRACK_CV104[1].DEST1": 1,
+                                    "TRACK_CV104[1].DEST2": 1,
+                                    "TRACK_CV104[1].DEST4": 1,
+                                    "TRACK_CV104[1].DEST8": 0
+                                },
+                                "2": {
+                                    "PH14 R20_DI03.1": 1,
+                                    "TRACK_CV104[1].DEST1": 0,
+                                    "TRACK_CV104[1].DEST2": 0,
+                                    "TRACK_CV104[1].DEST4": 0,
+                                    "TRACK_CV104[1].DEST8": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "50 to 60": {
+                            "start": 50,
+                            "end": 60,
+                            "conditions": {
+                                "0": {
+                                    "TRACK_CV104[1].LARGE": 1,
+                                    "R20_DI04.6": 0,
+                                    "R20_DI04.7": 0,
+                                    "CV104_2_BUSY": 0,
+                                    "R20_DI05.7": 1,
+                                    "R20_DI06.1": 1,
+                                    "R20_DI03.3": 0
+                                },
+                                "1": {
+                                    "TRACK_CV104[1].LARGE": 0,
+                                    "R20_DI04.6": 1,
+                                    "R20_DI04.7": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "100 to 20": {
+                            "start": 100,
+                            "end": 20,
+                            "conditions": {
+                                "0": {
+                                    "PH14 R20_DI05.6": 1,
+                                    "PH14 R20_DI06.0": 1,
+                                    "CV104_2_BUSY": 1,
+                                    "LI401_MOVE_RQ_CV104": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "100 to 600": {
+                            "start": 100,
+                            "end": 600,
+                            "conditions": {
+                                "0": {
+                                    "PH14 R20_DI05.6": 1,
+                                    "PH14 R20_DI06.0": 1,
+                                    "CV104_2_BUSY": 1,
+                                    "LI401_MOVE_RQ_CV104": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "200 to 210": {
+                            "start": 200,
+                            "end": 210,
+                            "conditions": {
+                                "0": {
+                                    "CV104_STEP2_DONE": 1,
+                                    "R20_DI03.2": 1,
+                                    "R20_DI03.3": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "220 to 230": {
+                            "start": 220,
+                            "end": 230,
+                            "conditions": {
+                                "0": {
+                                    "R20_DI06.4": 1,
+                                    "R20_DI06.5": 1,
+                                    "ALWAYS_ON": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "400 to 410": {
+                            "start": 400,
+                            "end": 410,
+                            "conditions": {
+                                "0": {
+                                    "LI401_SD_CV104": 1,
+                                    "R20_DI03.2": 1,
+                                    "CV104_2_BUSY": 0,
+                                    "R20_DI03.3": 0
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "410 to 70": {
+                            "start": 400,
+                            "end": 70,
+                            "conditions": {
+                                "0": {
+                                    "CV104_STEP3_DONE": 1,
+                                    "R20_DI03.2": 0,
+                                    "R20_DI03.3": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "500 to 510": {
+                            "start": 500,
+                            "end": 510,
+                            "conditions": {
+                                "0": {
+                                    "CV112_SYNC_CV104_OK": 1,
+                                    "CV101_SYNC_CV104_OK": 1,
+                                    "CV102_SYNC_CV104_OK": 1,
+                                    "CV103_SYNC_CV104_OK": 1,
+                                    "R20_DI04.3": 1,
+                                    "R20_DI04.1": 1,
+                                    "R20_DI05.7":1,
+                                    "R20_DI06.1": 1
+                                },
+                                "1": {
+                                    "CV112_PARK_ON": 0,
+                                    "CV101_PARK_ON": 0,
+                                    "CV102_PARK_ON": 0,
+                                    "CV103_PARK_ON": 0,
+                                    "R20_DI04.3": 1,
+                                    "R20_DI04.1": 1,
+                                    "R20_DI05.7": 1,
+                                    "R20_DI06.1": 1
+                                }
+                            }
+                        }
+                    }
+                ],
+                "Without sequances and conditions": [
+                    {
+                        "530 to 540": {
+                            "start": 530,
+                            "end": 540
+                        }
+                    },
+                    {
+                        "700 to 40": {
+                            "start": 700,
+                            "end": 40
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
