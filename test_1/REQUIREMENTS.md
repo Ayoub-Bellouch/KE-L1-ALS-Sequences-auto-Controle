@@ -54,9 +54,21 @@ Verify in `db_config.py`:
 
 ## Running the Script
 
+### Option 1: Run Directly
+
 ```bash
 python plc_data_acquisition_service.py
 ```
+
+### Option 2: Run from Main Application
+
+The service can also be run from the main application:
+
+```bash
+python main.py
+```
+
+The main.py file is configured to import and run the PLC data acquisition service.
 
 The script will:
 1. Create a `logs` directory if it doesn't exist
