@@ -19,9 +19,9 @@ def main():
     run_plc_service()
 
 
-# Function to run the PLC data acquisition service
-def run_plc_service():
-    plc_data_main()
+# # Function to run the PLC data acquisition service
+# def run_plc_service():
+#     plc_data_main()
 
 
 if __name__ == "__main__":
