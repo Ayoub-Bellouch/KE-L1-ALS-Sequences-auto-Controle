@@ -3,7 +3,7 @@
 # List of all tags to be monitored
 TAG_LIST = [
     # Sequence tags from base_experiance
-    "CV104_SEQUENCE",
+    "RCP_KINEMATIC_ACTUAL.NAME.DATA", "CV104_SEQUENCE",
     "R20_DI02.6", "R20_DI02.4", "R24_DI03.4", "R20_DI02.7", "R20_DI03.3",
     "R20_DI03.1", "R20_DI03.2", "R20_DI05.7", "R20_DI06.1", "R20_DI04.4",
     "R20_DI04.5", "R20_DI06.4", "R20_DI06.5", "R20_DI06.6", "R20_DI04.0",
